@@ -13,7 +13,7 @@ Senha incorreta
 
 Usuário não cadastrado
     Submit credentials         teste123    123456
-    Toast have text    Oops! Credenciais incorretas :(
+    Toast have text    Oops! Credenciais inválidas :(
 
 Usuário deve ser obrigatório
     Submit credentials         ${EMPTY}    123456
