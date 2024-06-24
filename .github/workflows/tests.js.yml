@@ -87,10 +87,10 @@ jobs:
         gh_access_token: ${{ secrets.GITHUB_TOKEN}} 
         report_path: logs
       
-     - name: Upload a Build Artifact
-       uses: actions/upload-artifact@v4.3.3
-       if: always()
-       with:
-         name: Test report
-         path: logs
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.3.3
+      if: always()
+      with:
+        name: Test report
+        path: logs
       
